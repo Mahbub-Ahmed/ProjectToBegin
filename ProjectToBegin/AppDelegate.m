@@ -16,7 +16,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //Checking if user data saved in UserDefault
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"logInStatus"]){
+        
+        UINavigationController *navigationController = (UINavigationController *) self.window.rootViewController;
+        
+        //Selecting main story board
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        //If user already loged in navigate to home view
+        [navigationController pushViewController:[storyboard instantiateViewControllerWithIdentifier:@"HOME_VIEW"] animated:NO];
+    }
     return YES;
 }
 
