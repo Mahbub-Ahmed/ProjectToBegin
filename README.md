@@ -27,6 +27,11 @@ ProjectToBegin is a Simple project to cover a list of useful things that will he
 -	[Contribution](#contribution)
 -	[License](#license)
 
+## Example Login Informaiton  
+For example purpose the password is not encrypted  
+Use the bellow file contain demo login information to sign in
+* [Demo Login](https://raw.githubusercontent.com/Mahbub-Ahmed/dummy_data/master/user_data.json)
+
 ## Project Folder Structure
 Organising the project files is important for easily accessible codes and to maintain a good quality code. You can choose from a vast range of structures, however this structure is my preference for most of my projects.
 
@@ -113,14 +118,14 @@ To access user private information like contact, photos, calendar you need to as
 ```
 ## Core Data
 Core data allows data modeling. If you are working with databse, data modeling makes life much easier. I used SQLite to store my contact list using Core Data. Also have a CRUD example .(N.B: SQLite is default persistent store for core data)
-
+* [Core Data](https://developer.apple.com/reference/coredata)
 
 ## CocoaPods
 Using dependency manager is the easiest way to install and update any third party libraries you may want to use in your project. I personaly like CocoaPods for objective C.
-* [Podfile](https://github.com/Mahbub-Ahmed/ProjectToBegin/blob/master/Podfile)
+* [CocoaPods](https://cocoapods.org/)
 
 ## Contribution
-If you'r interested in contribution you are more than wellcome  
+If you'r interested in contribution you are more than wellcome, Please  
  1. Fork the Repository
  2. Clone it (clone this repository to your machine)
  3. Create a Branch
