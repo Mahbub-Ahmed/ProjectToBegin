@@ -130,7 +130,7 @@ If you'r interested in contribution you are more than wellcome, Please
  2. Clone it (clone this repository to your machine)
  3. Create a Branch
  4. Edit and make necessary changes. Commit & push those changes
- 5. Submit your review
+ 5. Submit your code for review
  
 ## License
 ProjectToBegin is licensed under the terms of the MIT License. For full details please see the [LICENSE](https://github.com/Mahbub-Ahmed/ProjectToBegin/blob/master/LICENSE)
